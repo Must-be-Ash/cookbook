@@ -3,7 +3,7 @@
 import { CheckCircle, Clock, PlayCircle } from "lucide-react"
 import type { Module } from "@/data/types/cookbook-types"
 import { useApp } from "@/components/providers/AppProvider"
-import { Button } from "@/components/ui/Button"
+import { Button } from "@/components/ui/button"
 
 interface ModuleItemProps {
   module: Module

@@ -2,7 +2,7 @@
 
 import { Play, Pause, Volume2, VolumeX, Maximize } from "lucide-react"
 import { ProgressBar } from "./ProgressBar"
-import { Button } from "@/components/ui/Button"
+import { Button } from "@/components/ui/button"
 
 interface VideoControlsProps {
   isPlaying: boolean

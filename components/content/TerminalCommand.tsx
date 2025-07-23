@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Terminal, Copy, Check } from "lucide-react"
-import { Button } from "@/components/ui/Button"
+import { Button } from "@/components/ui/button"
 
 interface TerminalCommandProps {
   command: string
