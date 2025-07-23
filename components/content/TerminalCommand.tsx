@@ -25,7 +25,7 @@ export function TerminalCommand({ command, copyable = true }: TerminalCommandPro
   }
 
   return (
-    <div className="relative group">
+    <div className="relative group max-w-3xl">
       <div className="bg-gray-900 rounded-lg overflow-hidden border border-gray-700">
         <div className="flex items-center justify-between px-4 py-2 bg-gray-800">
           <div className="flex items-center gap-2">

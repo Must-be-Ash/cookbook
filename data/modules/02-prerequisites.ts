@@ -4,7 +4,7 @@ export const prerequisitesModule: Module = {
   id: "02-prerequisites",
   title: "2. Prerequisites",
   description: "Install Node.js, Cursor IDE, Claude Code, and get CDP API key",
-  estimatedTime: "15 min",
+  estimatedTime: "8 min",
   videoUrl: "/videos/02-prerequisites.mp4",
   content: {
     introduction:

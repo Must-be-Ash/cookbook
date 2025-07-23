@@ -23,7 +23,15 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [currentTime, setCurrentTime] = useState(0)
 
   const markModuleComplete = (moduleId: string) => {
-    setCompletedModules((prev) => new Set([...prev, moduleId]))
+    setCompletedModules((prev) => {
+      const newSet = new Set(prev)
+      if (newSet.has(moduleId)) {
+        newSet.delete(moduleId)
+      } else {
+        newSet.add(moduleId)
+      }
+      return newSet
+    })
   }
 
   return (

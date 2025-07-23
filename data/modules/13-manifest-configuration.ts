@@ -4,7 +4,7 @@ export const manifestConfigurationModule: Module = {
   id: "13-manifest-configuration",
   title: "13. Manifest Configuration",
   description: "Create Farcaster manifest and register your MiniKit app",
-  estimatedTime: "10 min",
+  estimatedTime: "6 min",
   videoUrl: "/videos/13-manifest-configuration.mp4",
   content: {
     introduction: "Now let's create the Farcaster manifest file and register your MiniKit app to ensure it works properly in the Farcaster ecosystem.",

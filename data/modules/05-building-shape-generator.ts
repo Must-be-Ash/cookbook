@@ -4,7 +4,7 @@ export const buildingShapeGeneratorModule: Module = {
   id: "05-building-shape-generator",
   title: "5. Building the Shape Generator Component",
   description: "Create the main shape generator component using Claude Code",
-  estimatedTime: "20 min",
+  estimatedTime: "12 min",
   videoUrl: "/videos/05-building-shape-generator.mp4",
   content: {
     introduction: "Now let's build the core component of our application - the Shape Generator that creates unique artwork based on wallet addresses.",

@@ -5,10 +5,11 @@ import { CodeBlock } from "./CodeBlock"
 import { TerminalCommand } from "./TerminalCommand"
 import { PromptBlock } from "./PromptBlock"
 import { LinkBlock } from "./LinkBlock"
+import { Button3D } from "@/components/ui/Button3D"
 import type { Instruction } from "@/data/types/cookbook-types"
 
 export function ModuleContent() {
-  const { currentModule, markModuleComplete } = useApp()
+  const { currentModule, markModuleComplete, completedModules } = useApp()
 
   if (!currentModule) {
     return (
@@ -17,6 +18,8 @@ export function ModuleContent() {
       </div>
     )
   }
+
+  const isModuleComplete = completedModules.has(currentModule.id)
 
   const renderInstruction = (instruction: Instruction, index: number) => {
     switch (instruction.type) {
@@ -87,7 +90,7 @@ export function ModuleContent() {
 
       {/* Key Takeaways */}
       {currentModule.content.keyTakeaways && currentModule.content.keyTakeaways.length > 0 && (
-        <div className="mt-12 p-6 bg-surface-elevated rounded-lg border border-border">
+        <div className="mt-12 p-6 bg-surface-elevated rounded-lg border border-border max-w-3xl">
           <h3 className="text-xl font-semibold text-text-primary mb-4">🎯 Key Takeaways</h3>
           <ul className="space-y-2">
             {currentModule.content.keyTakeaways.map((takeaway, index) => (
@@ -102,12 +105,14 @@ export function ModuleContent() {
 
       {/* Complete Module Button */}
       <div className="mt-12 pt-8 border-t border-border">
-        <button
+        <Button3D
+          variant="success"
+          size="lg"
+          isPressed={isModuleComplete}
           onClick={() => markModuleComplete(currentModule.id)}
-          className="bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg font-semibold transition-colors"
         >
-          Mark Module Complete
-        </button>
+          {isModuleComplete ? "✓ Module Complete" : "Mark Module Complete"}
+        </Button3D>
       </div>
     </div>
   )

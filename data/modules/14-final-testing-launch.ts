@@ -4,7 +4,7 @@ export const finalTestingLaunchModule: Module = {
   id: "14-final-testing-launch",
   title: "14. Final Testing and Launch",
   description: "Comprehensive testing and launch checklist for your MiniKit app",
-  estimatedTime: "15 min",
+  estimatedTime: "8 min",
   videoUrl: "/videos/14-final-testing-launch.mp4",
   content: {
     introduction: "Let's perform comprehensive testing of your complete MiniKit application and prepare for launch with a final checklist.",

@@ -4,7 +4,7 @@ export const nextStepsExtensionsModule: Module = {
   id: "15-next-steps-extensions",
   title: "15. Next Steps and Extensions",
   description: "Explore potential enhancements and learning resources",
-  estimatedTime: "10 min",
+  estimatedTime: "5 min",
   videoUrl: "/videos/15-next-steps-extensions.mp4",
   content: {
     introduction: "Congratulations on building your complete MiniKit application! Let's explore potential enhancements and additional learning resources.",

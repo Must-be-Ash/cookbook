@@ -4,7 +4,7 @@ export const startClaudeModule: Module = {
   id: "04-start-claude",
   title: "4. Start Claude",
   description: "Initialize Claude Code in your project for AI-assisted development",
-  estimatedTime: "5 min",
+  estimatedTime: "3 min",
   videoUrl: "/videos/04-start-claude.mp4",
   content: {
     introduction: "Now that your project is set up, let's initialize Claude Code to provide AI-assisted development throughout the tutorial.",

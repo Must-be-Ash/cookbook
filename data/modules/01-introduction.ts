@@ -4,7 +4,7 @@ export const introductionModule: Module = {
   id: "01-introduction",
   title: "1. Introduction",
   description: "Overview of what you'll build and learn in this MiniKit tutorial",
-  estimatedTime: "5 min",
+  estimatedTime: "3 min",
   videoUrl: "/videos/01-introduction.mp4",
   content: {
     introduction: "A complete guide to building a generative art MiniKit application that creates unique artwork based on wallet addresses.",

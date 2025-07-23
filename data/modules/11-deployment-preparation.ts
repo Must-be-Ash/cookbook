@@ -4,7 +4,7 @@ export const deploymentPreparationModule: Module = {
   id: "11-deployment-preparation",
   title: "11. Deployment Preparation",
   description: "Set up Git repository and prepare for deployment",
-  estimatedTime: "10 min",
+  estimatedTime: "6 min",
   videoUrl: "/videos/11-deployment-preparation.mp4",
   content: {
     introduction: "Before deploying to production, let's set up version control and prepare your code repository for deployment.",

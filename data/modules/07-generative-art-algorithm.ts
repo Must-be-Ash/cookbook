@@ -4,7 +4,7 @@ export const generativeArtAlgorithmModule: Module = {
   id: "07-generative-art-algorithm",
   title: "7. Generative Art Algorithm",
   description: "Create deterministic art generation and canvas utilities",
-  estimatedTime: "25 min",
+  estimatedTime: "15 min",
   videoUrl: "/videos/07-generative-art-algorithm.mp4",
   content: {
     introduction: "Now let's implement the core algorithm that generates unique, deterministic artwork based on wallet addresses using HTML5 Canvas.",

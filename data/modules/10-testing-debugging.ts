@@ -4,7 +4,7 @@ export const testingDebuggingModule: Module = {
   id: "10-testing-debugging",
   title: "10. Testing and Debugging",
   description: "Get your app ready for Base App and debug common issues",
-  estimatedTime: "15 min",
+  estimatedTime: "10 min",
   videoUrl: "/videos/10-testing-debugging.mp4",
   content: {
     introduction: "Before deploying, let's ensure your MiniKit app follows all best practices and debug any build issues that may arise.",
