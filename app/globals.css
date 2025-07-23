@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --popover: #ffffff;
+    --popover-foreground: #0f172a;
+    --primary: #0052ff;
+    --primary-foreground: #ffffff;
+    --secondary: #10b981;
+    --secondary-foreground: #ffffff;
+    --muted: #f8fafc;
+    --muted-foreground: #64748b;
+    --accent: #0052ff;
+    --accent-foreground: #ffffff;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #0052ff;
+    --radius: 0.5rem;
+    
+    /* Custom colors */
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --surface: #f8fafc;
+    --surface-elevated: #ffffff;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --info: #0052ff;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+}
+
+/* Override any dark mode styles */
+html,
+body,
+#__next,
+[data-theme="dark"] {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+/* Custom utility classes */
+.bg-background {
+  background-color: #ffffff !important;
+}
+
+.bg-surface {
+  background-color: #f8fafc !important;
+}
+
+.bg-surface-elevated {
+  background-color: #ffffff !important;
+}
+
+.text-text-primary {
+  color: #0f172a !important;
+}
+
+.text-text-secondary {
+  color: #475569 !important;
+}
+
+.text-text-muted {
+  color: #64748b !important;
+}
+
+.bg-primary {
+  background-color: #0052ff !important;
+}
+
+.text-primary {
+  color: #0052ff !important;
+}
+
+.bg-secondary {
+  background-color: #10b981 !important;
+}
+
+.text-secondary {
+  color: #10b981 !important;
+}
+
+.border-border {
+  border-color: #e2e8f0 !important;
+}
