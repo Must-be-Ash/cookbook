@@ -5,7 +5,7 @@ export const deploymentPreparationModule: Module = {
   title: "11. Deployment Preparation",
   description: "Set up Git repository and prepare for deployment",
   estimatedTime: "3 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/2Clx4b8u-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155603Z&X-Amz-Expires=7200&X-Amz-Signature=1cfc238462f485b88d217906dd001a3f192eaba9a51fba4794efc60474fc6604&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/SrMrtRr8LA8",
   content: {
     introduction: "Before deploying to production, let's set up version control and prepare your code repository for deployment.",
     sections: [

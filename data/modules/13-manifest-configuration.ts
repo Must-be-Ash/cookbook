@@ -5,7 +5,7 @@ export const manifestConfigurationModule: Module = {
   title: "13. Manifest Configuration",
   description: "Create Farcaster manifest and register your MiniKit app",
   estimatedTime: "2 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/bv5FbEf7-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155614Z&X-Amz-Expires=7200&X-Amz-Signature=a46cab94b24822cab9427c9bfc6f92009bac0035f82a3e1011cbee82553945d3&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/oP3lf4AMea0",
   content: {
     introduction: "Now let's create the Farcaster manifest file and register your MiniKit app to ensure it works properly in the Farcaster ecosystem.",
     sections: [

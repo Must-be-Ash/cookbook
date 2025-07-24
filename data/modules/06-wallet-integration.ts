@@ -5,7 +5,7 @@ export const walletIntegrationModule: Module = {
   title: "6. Wallet Integration",
   description: "Configure MiniKit provider and implement wallet connection flow",
   estimatedTime: "2 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/mRJGIgm6-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155539Z&X-Amz-Expires=7200&X-Amz-Signature=60bd25f4151f747923f56f6e4eaa75078f278c11ed819af9486fb79b82458406&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/fhN6B0cbZ5I",
   content: {
     introduction: "Now let's set up proper wallet integration with MiniKit provider configuration and connection flow management.",
     sections: [

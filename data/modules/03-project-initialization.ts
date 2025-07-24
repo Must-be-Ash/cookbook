@@ -5,7 +5,7 @@ export const projectInitializationModule: Module = {
   title: "3. Project Initialization",
   description: "Create your MiniKit project using OnchainKit CLI",
   estimatedTime: "4 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/KzEqcXVx-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155136Z&X-Amz-Expires=7200&X-Amz-Signature=d992815a06c5be034d6154811061161c59e7fda8629d0c42708beccf73abfa45&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/NNdiIPVBIkc",
   content: {
     introduction: "Now that you have all the prerequisites installed, let's create your MiniKit project using the OnchainKit CLI. This will set up a complete project structure with all the necessary dependencies and configuration.",
     sections: [

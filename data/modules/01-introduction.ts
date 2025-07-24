@@ -5,7 +5,7 @@ export const introductionModule: Module = {
   title: "1. Introduction",
   description: "Overview of what you'll build and learn in this MiniKit tutorial",
   estimatedTime: "1 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/Yxl6Vr4b-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T154926Z&X-Amz-Expires=7200&X-Amz-Signature=0731142f7d9d92cbbf84acb15094a8a914591c6dca6d698f3b41ce4ec91319f8&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/4vcQW8612Ns",
   content: {
     introduction: "A complete guide to building a generative art MiniKit application that creates unique artwork based on wallet addresses.",
     sections: [

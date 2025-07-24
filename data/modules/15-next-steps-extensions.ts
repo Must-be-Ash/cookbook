@@ -5,7 +5,7 @@ export const nextStepsExtensionsModule: Module = {
   title: "15. Next Steps and Extensions",
   description: "Explore potential enhancements and learning resources",
   estimatedTime: "1 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/ubeQJOPF-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155621Z&X-Amz-Expires=7200&X-Amz-Signature=4cc635435e7903ad1f609973e0a69b16ad51ab98805a23029884006d579e0c35&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/EqXQqqeGayI",
   content: {
     introduction: "Congratulations on building your complete MiniKit application! Let's explore potential enhancements and additional learning resources.",
     sections: [

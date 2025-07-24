@@ -5,7 +5,7 @@ export const testingDebuggingModule: Module = {
   title: "10. Testing and Debugging",
   description: "Get your app ready for Base App and debug common issues",
   estimatedTime: "2 min",
-  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/mUoXn6gf-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155559Z&X-Amz-Expires=7200&X-Amz-Signature=3deadfbc583eab6212de67f83e2d2583adcf6592d1484e563c166758b11d665c&X-Amz-SignedHeaders=host&x-id=GetObject",
+  videoUrl: "https://www.youtube.com/embed/vM1DDJop-3U",
   content: {
     introduction: "Before deploying, let's ensure your MiniKit app follows all best practices and debug any build issues that may arise.",
     sections: [
