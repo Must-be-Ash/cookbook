@@ -77,34 +77,47 @@ export function VideoPlayer() {
     }
   }
 
+  const isExternalVideo = currentModule?.videoUrl?.includes('screen.studio')
+  
   return (
     <div className="relative w-full">
       {/* Professional video container with rounded corners and shadow */}
       <div className="relative bg-black rounded-xl shadow-2xl overflow-hidden border border-border">
         {/* Video element */}
         <div className="relative aspect-video">
-          <video
-            ref={videoRef}
-            className="w-full h-full object-cover"
-            src={currentModule?.videoUrl || "/placeholder-video.mp4"}
-            poster="/placeholder.svg?height=400&width=800"
-          />
-          
-          {/* Gradient overlay for better control visibility */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+          {isExternalVideo ? (
+            <iframe
+              src={currentModule?.videoUrl}
+              className="w-full h-full border-0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <>
+              <video
+                ref={videoRef}
+                className="w-full h-full object-cover"
+                src={currentModule?.videoUrl || "/placeholder-video.mp4"}
+                poster="/placeholder.svg?height=400&width=800"
+              />
+              
+              {/* Gradient overlay for better control visibility */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+              
+              {/* Professional video controls */}
+              <VideoControls
+                isPlaying={isPlaying}
+                currentTime={currentTime}
+                duration={duration}
+                volume={volume}
+                onTogglePlay={togglePlay}
+                onSeek={handleSeek}
+                onVolumeChange={handleVolumeChange}
+                onToggleFullscreen={toggleFullscreen}
+              />
+            </>
+          )}
         </div>
-
-        {/* Professional video controls */}
-        <VideoControls
-          isPlaying={isPlaying}
-          currentTime={currentTime}
-          duration={duration}
-          volume={volume}
-          onTogglePlay={togglePlay}
-          onSeek={handleSeek}
-          onVolumeChange={handleVolumeChange}
-          onToggleFullscreen={toggleFullscreen}
-        />
       </div>
       
     </div>
