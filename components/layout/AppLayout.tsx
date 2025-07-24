@@ -3,10 +3,13 @@
 import { VideoPlayer } from "@/components/video/VideoPlayer"
 import { ModuleContent } from "@/components/content/ModuleContent"
 import { Sidebar } from "@/components/navigation/Sidebar"
+import { MobileNavigation } from "@/components/navigation/MobileNavigation"
 import { useApp } from "@/components/providers/AppProvider"
+import { useIsMobile } from "@/hooks/use-mobile"
 
 export function AppLayout() {
   const { currentModule } = useApp()
+  const isMobile = useIsMobile()
 
   if (!currentModule) {
     return (
@@ -19,6 +22,32 @@ export function AppLayout() {
     )
   }
 
+  if (isMobile) {
+    // Mobile Layout
+    return (
+      <div className="h-screen flex flex-col bg-background">
+        {/* Mobile Navigation - Fixed at top */}
+        <div className="relative z-50">
+          <MobileNavigation />
+        </div>
+
+        {/* Main Content Area - Scrollable */}
+        <div className="flex-1 overflow-y-auto">
+          {/* Video Player */}
+          <div className="p-4">
+            <VideoPlayer />
+          </div>
+
+          {/* Module Content */}
+          <div className="px-4 pb-8">
+            <ModuleContent />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  // Desktop Layout (unchanged)
   return (
     <div className="h-screen flex bg-background">
       {/* Main Content Area - Scrollable with sticky video */}
