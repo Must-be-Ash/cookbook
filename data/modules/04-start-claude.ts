@@ -16,13 +16,18 @@ export const startClaudeModule: Module = {
         instructions: [
           {
             type: "terminal",
-            content: "# Start an interactive session\nclaude",
+            content: "claude",
             copyable: true
           },
           {
             type: "text",
             content: "Then type `/init` and press enter. This will have Claude read your codebase and automatically create a `CLAUDE.md` file with project-specific guidance."
-          }
+          },
+            {
+              type: "terminal",
+              content: "/init",
+              copyable: true
+            },
         ]
       }
     ],
