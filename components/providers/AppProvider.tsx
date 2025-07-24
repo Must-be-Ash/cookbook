@@ -17,7 +17,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined)
 
 export function AppProvider({ children }: { children: ReactNode }) {
   const [currentModule, setCurrentModule] = useState<Module | null>(
-    cookbookModules.find((m) => m.id === "02-prerequisites") || null,
+    cookbookModules.find((m) => m.id === "01-introduction") || null,
   )
   const [completedModules, setCompletedModules] = useState<Set<string>>(new Set())
   const [currentTime, setCurrentTime] = useState(0)

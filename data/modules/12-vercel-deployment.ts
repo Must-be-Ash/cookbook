@@ -27,8 +27,8 @@ export const vercelDeploymentModule: Module = {
         content: "Now that you have your Vercel URL, set up your environment variables:",
         instructions: [
           {
-            type: "text",
-            content: "**Generate Environment Configuration**"
+            type: "subheader",
+            content: "Generate Environment Configuration"
           },
           {
             type: "text",
@@ -44,8 +44,8 @@ export const vercelDeploymentModule: Module = {
             content: "This will set up your `.env.local` file automatically. Just make sure your `NEXT_PUBLIC_ONCHAINKIT_API_KEY` is properly set."
           },
           {
-            type: "text",
-            content: "**Update Production Environment Variables**"
+            type: "subheader",
+            content: "Update Production Environment Variables"
           },
           {
             type: "text",
@@ -57,8 +57,8 @@ export const vercelDeploymentModule: Module = {
             copyable: true
           },
           {
-            type: "text",
-            content: "**Final Steps**"
+            type: "subheader",
+            content: "Final Steps"
           },
           {
             type: "list",

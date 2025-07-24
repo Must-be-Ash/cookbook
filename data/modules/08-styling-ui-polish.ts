@@ -28,8 +28,8 @@ export const stylingUIPolishModule: Module = {
         content: "",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",

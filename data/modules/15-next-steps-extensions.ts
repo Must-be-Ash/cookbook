@@ -16,15 +16,15 @@ export const nextStepsExtensionsModule: Module = {
         instructions: [
           {
             type: "text",
-            content: "1. **Social Sharing**: Add sharing functionality for generated artwork"
+            content: "1. Social Sharing: Add sharing functionality for generated artwork"
           },
           {
             type: "text",
-            content: "2. **Monetization and NFT Integration**: Add ability to mint artwork as NFTs for a given price"
+            content: "2. Monetization and NFT Integration: Add ability to mint artwork as NFTs for a given price"
           },
           {
             type: "text",
-            content: "3. **Gallery**: Create a gallery of all generated artworks"
+            content: "3. Gallery: Create a gallery of all generated artworks"
           }
         ]
       },

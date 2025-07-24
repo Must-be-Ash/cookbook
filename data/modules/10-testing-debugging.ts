@@ -15,8 +15,8 @@ export const testingDebuggingModule: Module = {
         content: "Before testing, ensure your MiniKit app follows all best practices and debug any build issues:",
         instructions: [
           {
-            type: "text",
-            content: "**Step 1: Build and Validate**"
+            type: "subheader",
+            content: "Step 1: Build and Validate"
           },
           {
             type: "text",
@@ -29,7 +29,20 @@ export const testingDebuggingModule: Module = {
           },
           {
             type: "text",
-            content: "**Step 2: Validate with Base App Guidelines**"
+            content: "Go through the text below and check for any potential bugs my app might have. You're simply investigating and doing an audit to make sure none of the bugs mentioned below apply to your app:"
+          },
+          {
+            type: "link",
+            content: "/debug-mini.md",
+            text: "Download Debug Checklist"
+          },
+          {
+            type: "text",
+            content: "Copy and paste the text from the debug checklist above to your AI agent for a comprehensive audit."
+          },
+          {
+            type: "subheader",
+            content: "Step 2: Validate with Base App Guidelines"
           },
           {
             type: "text",
@@ -45,24 +58,24 @@ export const testingDebuggingModule: Module = {
             content: "This will help validate your app structure and ensure it meets all Base App requirements."
           },
           {
-            type: "text",
-            content: "**Step 3: Debug Build Issues (If Any)**"
+            type: "subheader",
+            content: "Step 3: Debug Build Issues (If Any)"
           },
           {
             type: "text",
             content: "If you encounter build errors, follow this debugging process:"
           },
           {
-            type: "text",
-            content: "**A. Ask AI to Fix It**"
+            type: "subheader",
+            content: "A. Ask AI to Fix It"
           },
           {
             type: "text",
             content: "Share the error message with your AI agent and ask it to fix the issue."
           },
           {
-            type: "text",
-            content: "**B. Comprehensive Code Audit**"
+            type: "subheader",
+            content: "B. Comprehensive Code Audit"
           },
           {
             type: "text",
@@ -78,8 +91,8 @@ export const testingDebuggingModule: Module = {
             content: "After adding console logs, test again and share the console output with your AI agent along with screenshots to help it debug."
           },
           {
-            type: "text",
-            content: "**C. Use Context7 MCP for Farcaster Documentation**"
+            type: "subheader",
+            content: "C. Use Context7 MCP for Farcaster Documentation"
           },
           {
             type: "text",
@@ -112,8 +125,12 @@ export const testingDebuggingModule: Module = {
       {
         id: "debug-common-issues",
         title: "10.3. Debug Common Issues",
-        content: "**Common issues and solutions:**",
+        content: "",
         instructions: [
+          {
+            type: "subheader",
+            content: "Common issues and solutions:"
+          },
           {
             type: "list",
             content: "",

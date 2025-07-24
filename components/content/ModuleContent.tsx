@@ -46,6 +46,12 @@ export function ModuleContent() {
             ))}
           </ul>
         )
+      case "subheader":
+        return (
+          <h4 key={index} className="text-lg font-semibold text-text-primary mt-6 mb-3">
+            {instruction.content}
+          </h4>
+        )
       default:
         return (
           <p key={index} className="text-text-primary leading-relaxed">

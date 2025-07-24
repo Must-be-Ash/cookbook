@@ -27,9 +27,9 @@ export const projectInitializationModule: Module = {
             type: "list",
             content: "",
             items: [
-              "**Enter your app's name**: Type your desired app name (e.g., \"shapes-app\")",
-              "**Paste your Client API Key**: Enter the API key you copied from the Coinbase Developer Platform",
-              "**Share anonymous usage data to help improve create-onchain?**: Choose \"no\" or \"yes\" based on your preference"
+              "Enter your app's name: Type your desired app name (e.g., \"shapes-app\")",
+              "Paste your Client API Key: Enter the API key you copied from the Coinbase Developer Platform",
+              "Share anonymous usage data to help improve create-onchain?: Choose \"no\" or \"yes\" based on your preference"
             ]
           },
           {
@@ -65,13 +65,52 @@ export const projectInitializationModule: Module = {
             content: "Your MiniKit template should now be running at `http://localhost:3000`."
           }
         ]
+      },
+      {
+        id: "write-prd",
+        title: "3.4. Write Product Requirements Document",
+        content: "Create a Product Requirements Document (PRD) to define your project's goals and specifications. This document helps communicate your vision clearly and prevents AI agents from hallucinating or making incorrect assumptions about your project.",
+        instructions: [
+          {
+            type: "link",
+            content: "/shapes-minikit-prd.md",
+            text: "Download PRD"
+          },
+          {
+            type: "text",
+            content: "Add this PRD file to your project root. It will serve as a reference for AI agents and team members, ensuring everyone understands the project's scope and requirements."
+          },
+          {
+            type: "subheader",
+            content: "Additional Tools:"
+          },
+          {
+            type: "text",
+            content: "• Use PromptPanda for creating a project plan and prompts"
+          },
+          {
+            type: "link",
+            content: "https://www.promptpanda.xyz/",
+            text: "promptpanda.xyz"
+          },
+          {
+            type: "text",
+            content: "• Use Codeguide.dev for creating PRD"
+          },
+          {
+            type: "link",
+            content: "https://www.codeguide.dev/",
+            text: "codeguide.dev"
+          }
+        ]
       }
     ],
     keyTakeaways: [
       "Use npx create-onchain --mini to create your MiniKit project",
       "Provide your app name and Client API Key when prompted",
       "The CLI creates a complete project structure automatically",
-      "Your development server runs at http://localhost:3000"
+      "Your development server runs at http://localhost:3000",
+      "Create a PRD document to clearly define project goals and prevent AI hallucination"
     ]
   }
 } 

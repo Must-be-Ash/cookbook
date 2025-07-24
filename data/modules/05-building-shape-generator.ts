@@ -15,8 +15,8 @@ export const buildingShapeGeneratorModule: Module = {
         content: "Let's use Claude Code to create our main shape generator. In your Claude Code session:",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",
@@ -31,8 +31,8 @@ export const buildingShapeGeneratorModule: Module = {
         content: "Replace the content in `app/page.tsx`:",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",

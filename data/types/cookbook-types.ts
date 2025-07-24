@@ -21,10 +21,11 @@ export interface Section {
 }
 
 export interface Instruction {
-  type: "text" | "code" | "terminal" | "prompt" | "link" | "list"
+  type: "text" | "code" | "terminal" | "prompt" | "link" | "list" | "subheader"
   content: string
   language?: string
   copyable?: boolean
   text?: string
   items?: string[]
+  filename?: string
 }

@@ -15,8 +15,8 @@ export const deploymentPreparationModule: Module = {
         content: "",
         instructions: [
           {
-            type: "text",
-            content: "**A. Configure .gitignore**"
+            type: "subheader",
+            content: "A. Configure .gitignore"
           },
           {
             type: "text",
@@ -24,7 +24,7 @@ export const deploymentPreparationModule: Module = {
           },
           {
             type: "text",
-            content: "**Prompt to use:**"
+            content: "Prompt to use:"
           },
           {
             type: "prompt",
@@ -32,8 +32,8 @@ export const deploymentPreparationModule: Module = {
             copyable: true
           },
           {
-            type: "text",
-            content: "**B. Create Private GitHub Repository**"
+            type: "subheader",
+            content: "B. Create Private GitHub Repository"
           },
           {
             type: "text",
@@ -49,8 +49,8 @@ export const deploymentPreparationModule: Module = {
             ]
           },
           {
-            type: "text",
-            content: "**C. Push Your Code to GitHub**"
+            type: "subheader",
+            content: "C. Push Your Code to GitHub"
           },
           {
             type: "text",

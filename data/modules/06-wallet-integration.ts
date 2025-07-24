@@ -15,8 +15,8 @@ export const walletIntegrationModule: Module = {
         content: "Update `app/providers.tsx` to ensure proper MiniKit configuration:",
         instructions: [
           {
-            type: "text",
-            content: "**Code to verify/update:**"
+            type: "subheader",
+            content: "Code to verify/update:"
           },
           {
             type: "code",
@@ -32,8 +32,8 @@ export const walletIntegrationModule: Module = {
         content: "",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",

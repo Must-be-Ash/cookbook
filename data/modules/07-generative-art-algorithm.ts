@@ -15,8 +15,8 @@ export const generativeArtAlgorithmModule: Module = {
         content: "",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",
@@ -31,8 +31,8 @@ export const generativeArtAlgorithmModule: Module = {
         content: "",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",

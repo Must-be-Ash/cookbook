@@ -16,11 +16,16 @@ export const minikitFrameIntegrationModule: Module = {
         instructions: [
           {
             type: "text",
-            content: "**Tip**: You can convert PNG images to favicon format using: https://favicon.io/favicon-converter/"
+            content: "Tip: You can convert PNG images to favicon format using favicon.io:"
           },
           {
-            type: "text",
-            content: "**Code to check/update:**"
+            type: "link",
+            content: "https://favicon.io/favicon-converter/",
+            text: "favicon.io"
+          },
+          {
+            type: "subheader",
+            content: "Code to check/update:"
           },
           {
             type: "code",
@@ -36,8 +41,8 @@ export const minikitFrameIntegrationModule: Module = {
         content: "Create `public/.well-known/farcaster.json` with your app configuration:",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",
@@ -52,8 +57,8 @@ export const minikitFrameIntegrationModule: Module = {
         content: "",
         instructions: [
           {
-            type: "text",
-            content: "**Prompt to use:**"
+            type: "subheader",
+            content: "Prompt to use:"
           },
           {
             type: "prompt",

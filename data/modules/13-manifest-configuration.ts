@@ -28,12 +28,25 @@ export const manifestConfigurationModule: Module = {
         content: "To validate and register your app:",
         instructions: [
           {
-            type: "text",
-            content: "1. **Test with Embed Tool**: Go to https://farcaster.xyz/~/developers and use the **Embed Tool** to check that everything is working correctly"
+            type: "subheader",
+            content: "1. Test with Embed Tool"
           },
           {
             type: "text",
-            content: "2. **Register with Manifests**: Use the **Manifests** tool to register your app and verify all configurations"
+            content: "Go to Farcaster and use the Embed Tool to check that everything is working correctly."
+          },
+          {
+            type: "link",
+            content: "https://farcaster.xyz/~/developers",
+            text: "farcaster.xyz/~/developers"
+          },
+          {
+            type: "subheader",
+            content: "2. Register with Manifests"
+          },
+          {
+            type: "text",
+            content: "Use the Manifests tool to register your app and verify all configurations."
           },
           {
             type: "text",
