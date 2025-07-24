@@ -4,8 +4,8 @@ export const minikitFrameIntegrationModule: Module = {
   id: "09-minikit-frame-integration",
   title: "9. MiniKit Frame Integration",
   description: "Configure frame metadata and implement proper MiniKit lifecycle",
-  estimatedTime: "12 min",
-  videoUrl: "/videos/09-minikit-frame-integration.mp4",
+  estimatedTime: "1 min",
+  videoUrl: "https://screen.studio/share/cKUvTfli",
   content: {
     introduction: "Now let's configure proper frame metadata and implement MiniKit lifecycle management to ensure your app works correctly in the Farcaster ecosystem.",
     sections: [

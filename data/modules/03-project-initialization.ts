@@ -4,8 +4,8 @@ export const projectInitializationModule: Module = {
   id: "03-project-initialization",
   title: "3. Project Initialization",
   description: "Create your MiniKit project using OnchainKit CLI",
-  estimatedTime: "5 min",
-  videoUrl: "/videos/03-project-initialization.mp4",
+  estimatedTime: "4 min",
+  videoUrl: "https://screen.studio/share/KzEqcXVx",
   content: {
     introduction: "Now that you have all the prerequisites installed, let's create your MiniKit project using the OnchainKit CLI. This will set up a complete project structure with all the necessary dependencies and configuration.",
     sections: [

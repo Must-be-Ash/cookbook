@@ -4,8 +4,8 @@ export const vercelDeploymentModule: Module = {
   id: "12-vercel-deployment",
   title: "12. Vercel Deployment",
   description: "Deploy your MiniKit app to Vercel and configure environment variables",
-  estimatedTime: "8 min",
-  videoUrl: "/videos/12-vercel-deployment.mp4",
+  estimatedTime: "7 min",
+  videoUrl: "https://screen.studio/share/j7rk0e3F",
   content: {
     introduction: "Now let's deploy your MiniKit application to Vercel and configure all the necessary environment variables for production. If you don't have a Vercel account, you'll need to create one at https://vercel.com/",
     sections: [

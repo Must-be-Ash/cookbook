@@ -4,8 +4,8 @@ export const walletIntegrationModule: Module = {
   id: "06-wallet-integration",
   title: "6. Wallet Integration",
   description: "Configure MiniKit provider and implement wallet connection flow",
-  estimatedTime: "8 min",
-  videoUrl: "/videos/06-wallet-integration.mp4",
+  estimatedTime: "2 min",
+  videoUrl: "https://screen.studio/share/mRJGIgm6",
   content: {
     introduction: "Now let's set up proper wallet integration with MiniKit provider configuration and connection flow management.",
     sections: [

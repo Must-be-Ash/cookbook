@@ -4,8 +4,8 @@ export const stylingUIPolishModule: Module = {
   id: "08-styling-ui-polish",
   title: "8. Styling and UI Polish",
   description: "Update theme configuration and add responsive design",
-  estimatedTime: "7 min",
-  videoUrl: "/videos/08-styling-ui-polish.mp4",
+  estimatedTime: "0.5 min",
+  videoUrl: "https://screen.studio/share/EntwGtQe",
   content: {
     introduction: "Now let's polish the user interface with proper theming and responsive design to ensure a great experience across all devices.",
     sections: [
