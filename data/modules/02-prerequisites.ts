@@ -11,8 +11,24 @@ export const prerequisitesModule: Module = {
       "If you already have Node.js, Cursor IDE, and Claude Code installed, you can skip to the next step. Before we start building, you'll need to install three essential tools. Follow the links below to download and install each one:",
     sections: [
       {
+        id: "install-cursor",
+        title: "2.1. Install Cursor IDE",
+        content: "Cursor is an AI-powered code editor that will make development much easier.",
+        instructions: [
+          {
+            type: "link",
+            content: "https://cursor.com/",
+            text: "Download Cursor IDE"
+          },
+          {
+            type: "text",
+            content: "Download and install Cursor for your operating system. This will be your main development environment."
+          }
+        ],
+      },
+      {
         id: "install-nodejs",
-        title: "2.1. Install Node.js",
+        title: "2.2. Install Node.js",
         content: "Node.js is required to run our Next.js application and manage packages.",
         instructions: [
           {
@@ -28,22 +44,6 @@ export const prerequisitesModule: Module = {
             type: "terminal",
             content: "node --version\nnpm --version",
             copyable: true
-          }
-        ],
-      },
-      {
-        id: "install-cursor",
-        title: "2.2. Install Cursor IDE",
-        content: "Cursor is an AI-powered code editor that will make development much easier.",
-        instructions: [
-          {
-            type: "link",
-            content: "https://cursor.com/",
-            text: "Download Cursor IDE"
-          },
-          {
-            type: "text",
-            content: "Download and install Cursor for your operating system. This will be your main development environment."
           }
         ],
       },
@@ -101,6 +101,31 @@ export const prerequisitesModule: Module = {
             copyable: true
           }
         ],
+      },
+      {
+        id: "additional-help",
+        title: "2.6. Additional Help",
+        content: "If you need more detailed installation guides or run into issues:",
+        instructions: [
+          {
+            type: "text",
+            content: "For more detailed guide on how to install these tools, head to Vibebook:"
+          },
+          {
+            type: "link",
+            content: "https://www.vibebook.xyz/getting-started/install",
+            text: "Vibebook Installation Guide"
+          },
+          {
+            type: "text",
+            content: "If you had problems with Claude Code, copy paste the text from the following link into your AI chat:"
+          },
+          {
+            type: "link",
+            content: "/claude-code.md",
+            text: "Download Claude Code Troubleshooting"
+          }
+        ]
       },
     ],
     keyTakeaways: [
