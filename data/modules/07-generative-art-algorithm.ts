@@ -5,7 +5,7 @@ export const generativeArtAlgorithmModule: Module = {
   title: "7. Generative Art Algorithm",
   description: "Create deterministic art generation and canvas utilities",
   estimatedTime: "2 min",
-  videoUrl: "https://screen.studio/share/Z0VQqewo",
+  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/Z0VQqewo-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155655Z&X-Amz-Expires=7200&X-Amz-Signature=93a41e0c2c8d01c499840be24a9e5267143af981f7e15b03ff0b6337a6189e3a&X-Amz-SignedHeaders=host&x-id=GetObject",
   content: {
     introduction: "Now let's implement the core algorithm that generates unique, deterministic artwork based on wallet addresses using HTML5 Canvas.",
     sections: [

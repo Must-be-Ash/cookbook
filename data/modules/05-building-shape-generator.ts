@@ -5,7 +5,7 @@ export const buildingShapeGeneratorModule: Module = {
   title: "5. Building the Shape Generator Component",
   description: "Create the main shape generator component using Claude Code",
   estimatedTime: "5 min",
-  videoUrl: "https://screen.studio/share/FQJiRsVy",
+  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/FQJiRsVy-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155213Z&X-Amz-Expires=7200&X-Amz-Signature=234f6cad7e8394640446194634a4b177d554f6789d01a2a29b841876354a5466&X-Amz-SignedHeaders=host&x-id=GetObject",
   content: {
     introduction: "Now let's build the core component of our application - the Shape Generator that creates unique artwork based on wallet addresses.",
     sections: [

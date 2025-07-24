@@ -5,7 +5,7 @@ export const startClaudeModule: Module = {
   title: "4. Start Claude",
   description: "Initialize Claude Code in your project for AI-assisted development",
   estimatedTime: "1 min",
-  videoUrl: "https://screen.studio/share/5DqoTIAB",
+  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/5DqoTIAB-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155149Z&X-Amz-Expires=7200&X-Amz-Signature=4c0d3059467f19c60602fb53ced9c8cbb025ceeb43aad82df3721c7d49f05e35&X-Amz-SignedHeaders=host&x-id=GetObject",
   content: {
     introduction: "Now that your project is set up, let's initialize Claude Code to provide AI-assisted development throughout the tutorial.",
     sections: [

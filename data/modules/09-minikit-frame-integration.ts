@@ -5,7 +5,7 @@ export const minikitFrameIntegrationModule: Module = {
   title: "9. MiniKit Frame Integration",
   description: "Configure frame metadata and implement proper MiniKit lifecycle",
   estimatedTime: "1 min",
-  videoUrl: "https://screen.studio/share/cKUvTfli",
+  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/cKUvTfli-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155554Z&X-Amz-Expires=7200&X-Amz-Signature=358230adf8998b73ad6fb3911873ff203aeec399352effc346d668abeab907f4&X-Amz-SignedHeaders=host&x-id=GetObject",
   content: {
     introduction: "Now let's configure proper frame metadata and implement MiniKit lifecycle management to ensure your app works correctly in the Farcaster ecosystem.",
     sections: [

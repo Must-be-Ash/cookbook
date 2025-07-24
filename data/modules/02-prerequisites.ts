@@ -5,7 +5,7 @@ export const prerequisitesModule: Module = {
   title: "2. Prerequisites",
   description: "Install Node.js, Cursor IDE, Claude Code, and get CDP API key",
   estimatedTime: "3 min",
-  videoUrl: "https://screen.studio/share/OmUulmX6",
+  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/OmUulmX6-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155117Z&X-Amz-Expires=7200&X-Amz-Signature=d4ca08d59e3c8a631617eeae9e7f333780b6c30cef06c46ce2238f186cc33f91&X-Amz-SignedHeaders=host&x-id=GetObject",
   content: {
     introduction:
       "If you already have Node.js, Cursor IDE, and Claude Code installed, you can skip to the next step. Before we start building, you'll need to install three essential tools. Follow the links below to download and install each one:",

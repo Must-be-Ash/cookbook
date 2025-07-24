@@ -5,7 +5,7 @@ export const finalTestingLaunchModule: Module = {
   title: "14. Final Testing and Launch",
   description: "Comprehensive testing and launch checklist for your MiniKit app",
   estimatedTime: "0.5 min",
-  videoUrl: "https://screen.studio/share/xnBecajO",
+  videoUrl: "https://screen-studio-shareable-links.67aa83ffa7fb557cd114a7156fca4e73.r2.cloudflarestorage.com/xnBecajO-video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=363e5c20253db1195c87384f6dfb4c99%2F20250724%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250724T155617Z&X-Amz-Expires=7200&X-Amz-Signature=b6e66331db2df5e42a5350245f9b1842befda7e7da3749928b72b0f2aa76e75f&X-Amz-SignedHeaders=host&x-id=GetObject",
   content: {
     introduction: "Let's perform comprehensive testing of your complete MiniKit application and prepare for launch with a final checklist.",
     sections: [

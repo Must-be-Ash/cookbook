@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useState, useEffect } from "react"
+import { Play } from "lucide-react"
 import { VideoControls } from "./VideoControls"
 import { useApp } from "@/components/providers/AppProvider"
 
@@ -15,6 +16,11 @@ export function VideoPlayer() {
   useEffect(() => {
     const video = videoRef.current
     if (!video) return
+
+    // Reset video state when module changes
+    setIsPlaying(false)
+    setDuration(0)
+    setCurrentTime(0)
 
     const handleTimeUpdate = () => {
       setCurrentTime(video.currentTime)
@@ -37,8 +43,10 @@ export function VideoPlayer() {
       video.removeEventListener("loadedmetadata", handleLoadedMetadata)
       video.removeEventListener("play", handlePlay)
       video.removeEventListener("pause", handlePause)
+      // Pause video when cleaning up to prevent ghost playback
+      video.pause()
     }
-  }, [setCurrentTime])
+  }, [currentModule?.id, setCurrentTime])
 
   const togglePlay = () => {
     const video = videoRef.current
@@ -98,11 +106,23 @@ export function VideoPlayer() {
                 ref={videoRef}
                 className="w-full h-full object-cover"
                 src={currentModule?.videoUrl || "/placeholder-video.mp4"}
-                poster="/placeholder.svg?height=400&width=800"
+                preload="metadata"
               />
               
               {/* Gradient overlay for better control visibility */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+              
+              {/* Center play button overlay */}
+              {!isPlaying && (
+                <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                  <button
+                    onClick={togglePlay}
+                    className="bg-white/70 backdrop-blur-sm hover:bg-white/50 transition-all duration-200 rounded-full p-6 pointer-events-auto group"
+                  >
+                    <Play className="w-12 h-12 text-[#0052FF] ml-1 group-hover:scale-110 transition-transform" />
+                  </button>
+                </div>
+              )}
               
               {/* Professional video controls */}
               <VideoControls
